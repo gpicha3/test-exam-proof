@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="contrainner">
+        <div class="box">
+            <div class="form">
+                <h2>Registration Form</h2>
+                <div class="form-item-group">
+                    <div class="form-item">
+                        <label for="firstname">First Name</label>
+                        <Input type="text" id="firstname"></Input>
+                    </div>
+                    <div class="form-item">
+                        <label for="lastname">Last Name</label>
+                        <Input type="text" id="lastname"></Input>
+                    </div>
+                </div>
+
+                <div class="form-item-group">
+                    <div class="form-item">
+                        <label for="birth">Birthday</label>
+                        <Input type="date" id="birth"></Input>
+                    </div>
+                    <div class="form-item">
+                        <label for="gender">Gender</label>
+                        <div class="gender-section" >
+                            <div>
+                                <input type="radio" name="gender" value="male" id="male" />
+                                <label for="male">Male</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="gender" value="female" id="female" />
+                                <label for="female">Female</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-item-group">
+                    <div class="form-item">
+                        <label for="email">Email</label>
+                        <Input type="text" id="email"></Input>
+                    </div>
+                    <div class="form-item">
+                        <label for="phone">Phone</label>
+                        <Input type="text" id="phone"></Input>
+                    </div>
+                </div>
+                <div class="form-item-group">
+                    <div class="form-item">
+                        <label for="subject">Subject</label>
+                        <select>
+                            <option value="" selected disabled hidden>Choose Option</option>
+                            <option value="text">test</option>
+                            <option value="text">test</option>
+                            <option value="text">test</option>
+                            <option value="text">test</option>
+                        </select>
+                    </div>
+                </div>
+                <button class="btn-submit"> Submit </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

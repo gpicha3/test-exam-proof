@@ -1,0 +1,67 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: rgb(254,0,255);
+    background: linear-gradient(180deg, rgba(254,0,255,1) 0%, rgba(173,0,255,1) 0%, rgba(255,0,251,1) 89%, rgba(255,73,252,1) 100%);
+    input {
+        padding: 16px;
+        border-radius: 5px;
+        border: 1px ;
+        background-color: rgb(243, 243, 243);
+    }
+
+    select {
+        padding: 16px;
+        border-radius: 5px;
+        border: 1px ;
+        background-color: rgb(243, 243, 243);
+    }
+}
+
+.contrainner {
+    display: grid;
+    place-items: center;
+    height: 100vh;  
+}
+
+.box {
+    background-color: white;
+    border-radius: 20px;
+    min-width: 50%;
+    padding: 48px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.form-item-group{
+    display: flex;
+    gap: 40px;
+    width: 100%;
+}
+
+.form-item{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.btn-submit{
+    width: 25%;
+    padding: 10px;
+    background-color: #5f5fcf;
+    border-radius: 5px;
+    border: 1px;
+    color: white;
+    font-size: 18px;
+}
+
+.gender-section{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    height: 100%;
+}
